@@ -1,0 +1,1 @@
+Lecture 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/lecture_1.ipynb)
