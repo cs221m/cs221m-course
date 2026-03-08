@@ -10,7 +10,9 @@ dependencies = [
     "nnsight>=0.5.15",
     "pandas>=3.0.1",
     "plotly>=6.5.2",
+    "pyvene>=0.1.8",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.1",
+    "torch>=2.10.0",
     "transformers>=5.2.0",
 ]
