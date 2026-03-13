@@ -6,6 +6,9 @@ Course website: [https://cs221m.github.io/](https://cs221m.github.io/)
 
 ## Syllabus
 
+Weeks 1-5: core materials.
+Weeks 5-10: guest speakers and project presentations.
+
 | Week        | Date          | Lecture                                    | Notebook                                                                                                               |
 | ----------- | ------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **Week 1**  | Mon. March 30 | Introduction                               |                                           |
