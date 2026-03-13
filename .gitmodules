@@ -1,0 +1,3 @@
+[submodule "causalab"]
+	path = causalab
+	url = https://github.com/goodfire-ai/causalab.git

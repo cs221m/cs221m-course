@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "causalab",
     "jupyter>=1.1.1",
     "kaleido>=0.4.2",
     "nnsight>=0.5.15",
@@ -16,3 +17,11 @@ dependencies = [
     "torch>=2.10.0",
     "transformers>=5.2.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "causalab",
+]
+
+[tool.uv.sources]
+causalab = { workspace = true }
