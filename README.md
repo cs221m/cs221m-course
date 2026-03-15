@@ -12,9 +12,9 @@ Course website: [https://cs221m.github.io/](https://cs221m.github.io/)
 
 | Week        | Date          | Lecture                                    | Notebook                                                                                                               |
 | ----------- | ------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| **Week 1**  | Mon. March 30 | Introduction                               |                                           |
+| **Week 1**  | Mon. March 30 | Introduction                               | —                                         |
 |             | Wed. April 1  | Review of language models                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/02_review_of_lms.ipynb) |
-| **Week 2**  | Mon. April 6  | Behavioral analysis and input attribution  |                                           |
+| **Week 2**  | Mon. April 6  | Behavioral analysis and input attribution  | —                                         |
 |             | Wed. April 8  | Probes for decoding activations            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/04_probes.ipynb) |
 | **Week 3**  | Mon. April 13 | Interventions for steering activations     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/05_interventions.ipynb) |
 |             | Wed. April 15 | Causal mediation analysis                  | —                                         |
