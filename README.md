@@ -14,24 +14,24 @@ Course website: [https://cs221m.github.io/](https://cs221m.github.io/)
 | ----------- | ------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **Week 1**  | Mon. March 30 | Introduction                               | —                                         |
 |             | Wed. April 1  | Review of language models                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/02_review_of_lms.ipynb) |
-| **Week 2**  | Mon. April 6  | Behavioral analysis and input attribution  | —                                         |
+| **Week 2**  | Mon. April 6  | Behavioral analysis and input attribution  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/03_behavioral_analysis.ipynb) |
 |             | Wed. April 8  | Probes for decoding activations            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/04_probes.ipynb) |
 | **Week 3**  | Mon. April 13 | Interventions for steering activations     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/05_interventions.ipynb) |
-|             | Wed. April 15 | Causal mediation analysis                  | —                                         |
+|             | Wed. April 15 | Causal mediation analysis                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/06_causal_mediation_analysis.ipynb) |
 | **Week 4**  | Mon. April 20 | Theory of causal abstraction I             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/07_causal_abstraction_i.ipynb) |
-|             | Wed. April 22 | Designing counterfactuals                  | —                                         |
-| **Week 5**  | Mon. April 27 | Automated causal interpretability          | —                                         |
+|             | Wed. April 22 | Designing counterfactuals                  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/08_counterfactual_design.ipynb) |
+| **Week 5**  | Mon. April 27 | Automated causal interpretability          | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/09_automated_causal_interpretability.ipynb) |
 |             | Wed. April 29 | Theory of causal abstraction II            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cs221m/cs221m-course/blob/main/10_causal_abstraction_ii.ipynb) |
 | **Week 6**  | Mon. May 4    | —                                          | —                                         |
 |             | Wed. May 6    | —                                          | —                                         |
 | **Week 7**  | Mon. May 11   | —                                          | —                                         |
-|             | Wed. May 13   | —                                          | —                                                                                                                      |
-| **Week 8**  | Mon. May 18   | —                                          | —                                                                                                                      |
-|             | Wed. May 20   | —                                          | —                                                                                                                      |
-| **Week 9**  | Mon. May 25   | —                                          | —                                                                                                                      |
-|             | Wed. May 27   | —                                          | —                                                                                                                      |
-| **Week 10** | Mon. June 1   | Project presentations                      | —                                                                                                                      |
-|             | Wed. June 3   | Project presentations                      | —                                                                                                                      |
+|             | Wed. May 13   | —                                          | —                                         |
+| **Week 8**  | Mon. May 18   | —                                          | —                                         |
+|             | Wed. May 20   | —                                          | —                                         |
+| **Week 9**  | Mon. May 25   | —                                          | —                                         |
+|             | Wed. May 27   | —                                          | —                                         |
+| **Week 10** | Mon. June 1   | Project presentations                      | —                                         |
+|             | Wed. June 3   | Project presentations                      | —                                         |
 
 ## Learning goals
 
