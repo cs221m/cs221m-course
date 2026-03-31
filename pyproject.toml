@@ -24,4 +24,4 @@ members = [
 ]
 
 [tool.uv.sources]
-causalab = { path = "./causalab" }
+causalab = { workspace = true }
