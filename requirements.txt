@@ -4,13 +4,13 @@
     # via cs221m-course
 absl-py==2.4.0
     # via tensorboard
-accelerate==1.12.0
+accelerate==1.13.0
     # via
     #   nnsight
     #   pyvene
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.3
+aiohttp==3.13.4
     # via fsspec
 aiosignal==1.4.0
     # via aiohttp
@@ -20,7 +20,7 @@ annotated-types==0.7.0
     # via pydantic
 ansi2html==1.9.2
     # via jupyter-dash
-anyio==4.12.1
+anyio==4.13.0
     # via
     #   httpx
     #   jupyter-server
@@ -36,9 +36,9 @@ astor==0.8.1
     # via nnsight
 asttokens==3.0.1
     # via stack-data
-async-lru==2.2.0
+async-lru==2.3.0
     # via jupyterlab
-attrs==25.4.0
+attrs==26.1.0
     # via
     #   aiohttp
     #   jsonschema
@@ -53,7 +53,7 @@ bleach==6.3.0
     # via nbconvert
 blinker==1.9.0
     # via flask
-certifi==2026.1.4
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
@@ -62,7 +62,7 @@ cffi==2.0.0
     # via
     #   argon2-cffi-bindings
     #   pyzmq
-charset-normalizer==3.4.4
+charset-normalizer==3.4.6
     # via requests
 choreographer==1.2.1
     # via kaleido
@@ -84,20 +84,22 @@ comm==0.2.3
     #   ipywidgets
 contourpy==1.3.3
     # via matplotlib
-cuda-bindings==12.9.4 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+cuda-bindings==13.2.0 ; sys_platform == 'linux'
     # via torch
-cuda-pathfinder==1.3.5 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+cuda-pathfinder==1.5.0 ; sys_platform == 'linux'
     # via cuda-bindings
+cuda-toolkit==13.0.2 ; sys_platform == 'linux'
+    # via torch
 cycler==0.12.1
     # via matplotlib
-dash==4.0.0
+dash==4.1.0
     # via
     #   causalab
     #   dash-cytoscape
     #   jupyter-dash
 dash-cytoscape==1.0.2
     # via causalab
-datasets==4.6.1
+datasets==4.8.4
     # via pyvene
 debugpy==1.8.20
     # via ipykernel
@@ -105,7 +107,7 @@ decorator==5.2.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
-dill==0.4.0
+dill==0.4.1
     # via
     #   datasets
     #   multiprocess
@@ -113,7 +115,7 @@ executing==2.2.1
     # via stack-data
 fastjsonschema==2.21.2
     # via nbformat
-filelock==3.24.3
+filelock==3.25.2
     # via
     #   datasets
     #   huggingface-hub
@@ -122,7 +124,7 @@ flask==3.1.3
     # via
     #   dash
     #   jupyter-dash
-fonttools==4.61.1
+fonttools==4.62.1
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -136,13 +138,13 @@ fsspec==2026.2.0
     #   huggingface-hub
     #   pyvene
     #   torch
-grpcio==1.78.0
+grpcio==1.80.0
     # via tensorboard
 h11==0.16.0
     # via
     #   httpcore
     #   wsproto
-hf-xet==1.3.0 ; platform_machine == 'AMD64' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'arm64' or platform_machine == 'x86_64'
+hf-xet==1.4.2 ; platform_machine == 'AMD64' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'arm64' or platform_machine == 'x86_64'
     # via huggingface-hub
 httpcore==1.0.9
     # via httpx
@@ -152,7 +154,7 @@ httpx==0.28.1
     #   huggingface-hub
     #   jupyterlab
     #   nnsight
-huggingface-hub==1.4.1
+huggingface-hub==1.8.0
     # via
     #   accelerate
     #   datasets
@@ -166,7 +168,7 @@ idna==3.11
     #   jsonschema
     #   requests
     #   yarl
-importlib-metadata==8.7.1
+importlib-metadata==9.0.0
     # via dash
 iniconfig==2.3.0
     # via pytest
@@ -179,7 +181,7 @@ ipykernel==7.2.0
     #   jupyter-console
     #   jupyter-dash
     #   jupyterlab
-ipython==9.10.0
+ipython==9.12.0
     # via
     #   ipykernel
     #   ipywidgets
@@ -210,9 +212,9 @@ jinja2==3.1.6
     #   torch
 joblib==1.5.3
     # via scikit-learn
-json5==0.13.0
+json5==0.14.0
     # via jupyterlab-server
-jsonpointer==3.0.0
+jsonpointer==3.1.1
     # via jsonschema
 jsonschema==4.26.0
     # via
@@ -256,7 +258,7 @@ jupyter-server==2.17.0
     #   notebook-shim
 jupyter-server-terminals==0.5.4
     # via jupyter-server
-jupyterlab==4.5.5
+jupyterlab==4.5.6
     # via
     #   causalab
     #   jupyter
@@ -271,7 +273,7 @@ jupyterlab-widgets==3.0.16
     # via ipywidgets
 kaleido==1.2.0
     # via cs221m-course
-kiwisolver==1.4.9
+kiwisolver==1.5.0
     # via matplotlib
 lark==1.3.1
     # via rfc3987-syntax
@@ -311,9 +313,9 @@ multidict==6.7.1
     # via
     #   aiohttp
     #   yarl
-multiprocess==0.70.18
+multiprocess==0.70.19
     # via datasets
-narwhals==2.17.0
+narwhals==2.18.1
     # via plotly
 nbclient==0.10.4
     # via nbconvert
@@ -335,17 +337,17 @@ networkx==3.6.1
     # via
     #   causalab
     #   torch
-nnsight==0.5.15
+nnsight==0.6.3
     # via
     #   causalab
     #   cs221m-course
-notebook==7.5.4
+notebook==7.5.5
     # via jupyter
 notebook-shim==0.2.4
     # via
     #   jupyterlab
     #   notebook
-numpy==2.4.2
+numpy==2.4.4
     # via
     #   accelerate
     #   causalab
@@ -363,45 +365,45 @@ numpy==2.4.2
     #   statsmodels
     #   tensorboard
     #   transformers
-nvidia-cublas-cu12==12.8.4.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-cublas==13.1.0.3 ; sys_platform == 'linux'
     # via
-    #   nvidia-cudnn-cu12
-    #   nvidia-cusolver-cu12
-    #   torch
-nvidia-cuda-cupti-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+    #   cuda-toolkit
+    #   nvidia-cudnn-cu13
+    #   nvidia-cusolver
+nvidia-cuda-cupti==13.0.85 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cuda-nvrtc==13.0.88 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cuda-runtime==13.0.96 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cudnn-cu13==9.19.0.56 ; sys_platform == 'linux'
     # via torch
-nvidia-cuda-nvrtc-cu12==12.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cuda-runtime-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cudnn-cu12==9.10.2.21 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cufft-cu12==11.3.3.83 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cufile-cu12==1.13.1.3 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-curand-cu12==10.3.9.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cusolver-cu12==11.7.3.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
-nvidia-cusparse-cu12==12.5.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-cufft==12.0.0.61 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cufile==1.15.1.6 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-curand==10.4.0.35 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cusolver==12.0.4.66 ; sys_platform == 'linux'
+    # via cuda-toolkit
+nvidia-cusparse==12.6.3.3 ; sys_platform == 'linux'
     # via
-    #   nvidia-cusolver-cu12
-    #   torch
-nvidia-cusparselt-cu12==0.7.1 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+    #   cuda-toolkit
+    #   nvidia-cusolver
+nvidia-cusparselt-cu13==0.8.0 ; sys_platform == 'linux'
     # via torch
-nvidia-nccl-cu12==2.27.5 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-nccl-cu13==2.28.9 ; sys_platform == 'linux'
     # via torch
-nvidia-nvjitlink-cu12==12.8.93 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+nvidia-nvjitlink==13.0.88 ; sys_platform == 'linux'
     # via
-    #   nvidia-cufft-cu12
-    #   nvidia-cusolver-cu12
-    #   nvidia-cusparse-cu12
-    #   torch
-nvidia-nvshmem-cu12==3.4.5 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+    #   cuda-toolkit
+    #   nvidia-cufft
+    #   nvidia-cusolver
+    #   nvidia-cusparse
+nvidia-nvshmem-cu13==3.4.5 ; sys_platform == 'linux'
     # via torch
-nvidia-nvtx-cu12==12.8.90 ; platform_machine == 'x86_64' and sys_platform == 'linux'
-    # via torch
+nvidia-nvtx==13.0.85 ; sys_platform == 'linux'
+    # via cuda-toolkit
 orjson==3.11.7
     # via kaleido
 packaging==26.0
@@ -443,9 +445,9 @@ pillow==12.1.1
     # via
     #   matplotlib
     #   tensorboard
-platformdirs==4.9.2
+platformdirs==4.9.4
     # via jupyter-core
-plotly==6.5.2
+plotly==6.6.0
     # via
     #   cs221m-course
     #   dash
@@ -463,7 +465,7 @@ propcache==0.4.1
     # via
     #   aiohttp
     #   yarl
-protobuf==7.34.0
+protobuf==7.34.1
     # via
     #   pyvene
     #   tensorboard
@@ -485,7 +487,7 @@ pydantic==2.12.5
     # via nnsight
 pydantic-core==2.41.5
     # via pydantic
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   ipython
     #   ipython-pygments-lexers
@@ -507,7 +509,7 @@ python-dateutil==2.9.0.post0
     #   pandas
 python-engineio==4.13.1
     # via python-socketio
-python-json-logger==4.0.0
+python-json-logger==4.1.0
     # via jupyter-events
 python-socketio==5.16.1
     # via nnsight
@@ -538,9 +540,9 @@ referencing==0.37.0
     #   jsonschema
     #   jsonschema-specifications
     #   jupyter-events
-regex==2026.2.19
+regex==2026.3.32
     # via transformers
-requests==2.32.5
+requests==2.33.1
     # via
     #   dash
     #   datasets
@@ -591,16 +593,14 @@ send2trash==2.1.0
     # via jupyter-server
 sentencepiece==0.2.1
     # via pyvene
-setuptools==82.0.0
+setuptools==81.0.0
     # via
     #   dash
     #   jupyterlab
     #   tensorboard
     #   torch
 shellingham==1.5.4
-    # via
-    #   huggingface-hub
-    #   typer
+    # via typer
 simple-websocket==1.1.0
     # via python-engineio
 simplejson==3.20.2
@@ -637,14 +637,14 @@ tokenizers==0.22.2
     #   transformers
 toml==0.10.2
     # via nnsight
-torch==2.10.0
+torch==2.11.0
     # via
     #   accelerate
     #   causalab
     #   cs221m-course
     #   nnsight
     #   pyvene
-tornado==6.5.4
+tornado==6.5.5
     # via
     #   ipykernel
     #   jupyter-client
@@ -672,17 +672,15 @@ traitlets==5.14.3
     #   nbclient
     #   nbconvert
     #   nbformat
-transformers==5.2.0
+transformers==5.4.0
     # via
     #   causalab
     #   cs221m-course
     #   nnsight
     #   pyvene
-triton==3.6.0 ; platform_machine == 'x86_64' and sys_platform == 'linux'
+triton==3.6.0 ; sys_platform == 'linux'
     # via torch
 typer==0.24.1
-    # via typer-slim
-typer-slim==0.24.0
     # via
     #   huggingface-hub
     #   transformers
@@ -722,7 +720,7 @@ websocket-client==1.9.0
     # via
     #   jupyter-server
     #   python-socketio
-werkzeug==3.1.6
+werkzeug==3.1.7
     # via
     #   dash
     #   flask
@@ -737,3 +735,5 @@ yarl==1.23.0
     # via aiohttp
 zipp==3.23.0
     # via importlib-metadata
+zstandard==0.25.0
+    # via nnsight
